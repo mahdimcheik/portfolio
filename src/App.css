@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #354d67;
+  --secondary: #cd853f;
+  --success: #0b4568;
+  --white: #ffffff;
+  --break-point: 600px;
+}
+.app {
+  margin: 0 auto;
+  width: 80%;
+}

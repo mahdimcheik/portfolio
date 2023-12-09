@@ -1,0 +1,25 @@
+.ListSkills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 600px) {
+  .ListSkills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 800px) {
+  .ListSkills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}
